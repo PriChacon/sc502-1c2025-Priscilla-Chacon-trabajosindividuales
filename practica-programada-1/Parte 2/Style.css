@@ -1,0 +1,106 @@
+/* Estilos Generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f4f8; /* Color de fondo suave */
+    color: #333; /* Color de texto */
+}
+
+/* Barra de Navegación */
+.navbar {
+    background-color: #1b1b32; /* Color de fondo de la barra de navegación */
+    padding: 10px 20px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar a {
+    color: #f5f6f7; /* Color de los enlaces */
+    text-decoration: none;
+    padding: 10px;
+}
+
+.navbar a:hover {
+    color: #ffcc00; /* Color de los enlaces al pasar el ratón */
+}
+
+/* Sección de Perfil del Doctor */
+.doctor-profile {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffffff; /* Fondo blanco para el perfil */
+    margin: 20px auto; /* Margen automático para centrar */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+.doctor-name {
+    font-size: 2em; /* Tamaño de fuente grande para el nombre */
+    color: #1b1b32; /* Color del nombre */
+}
+
+.doctor-specialty {
+    font-size: 1.5em; /* Tamaño de fuente para la especialidad */
+    color: #666; /* Color gris para la especialidad */
+}
+
+#doctor-description {
+    font-size: 1em; /* Tamaño de fuente normal para la descripción */
+    margin: 10px 0; /* Margen vertical */
+}
+
+.appointment-button {
+    background-color: #ffcc00; /* Color de fondo del botón */
+    color: #1b1b32; /* Color del texto del botón */
+    border: none; /* Sin borde */
+    padding: 10px 20px; /* Espaciado interno */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor al pasar el ratón */
+}
+
+.appointment-button:hover {
+    background-color: #e6b800; /* Color de fondo al pasar el ratón */
+}
+
+/* Sección de Comentarios de Pacientes */
+.patient-comments {
+    padding: 20px;
+    background-color: #ffffff; /* Fondo blanco para los comentarios */
+    margin: 20px auto; /* Margen automático para centrar */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+.comments-container {
+    display: flex;
+    flex-direction: column; /* Coloca los comentarios en columna */
+}
+
+.comment-card {
+    background-color: #f9f9f9; /* Fondo gris claro para cada comentario */
+    padding: 15px; /* Espaciado interno */
+    margin: 10px 0; /* Margen vertical entre comentarios */
+    border-radius: 5px; /* Bordes redondeados */
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+.comment-card h4 {
+    margin: 0; /* Sin margen para el nombre */
+    color: #1b1b32; /* Color del nombre del paciente */
+}
+
+.comment-card p {
+    margin: 5px 0; /* Margen vertical para el comentario */
+}
+
+.comment-card span {
+    font-size: 0.9em; /* Tamaño de fuente más pequeño para la fecha */
+    color: #999; /* Color gris para la fecha */
+}
