@@ -1,0 +1,12 @@
+Estado de Cuenta
+==============================
+ID	Descripción	Monto
+------------------------------
+1	Pricesmart	256,780.00
+2	Spotify.com	7,500.00
+3	BreadHouse	20,135.00
+------------------------------
+Monto Total: 284,415.00
+Monto Total con Intereses: 291,809.79
+Cashback: 284.42
+Monto Final a Pagar: 291,525.38
